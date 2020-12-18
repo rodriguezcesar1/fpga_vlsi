@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1608311697
+timestamp 1608315137
 << ntransistor >>
 rect 573 1706 575 1710
 rect 578 1706 580 1710
@@ -9326,10 +9326,14 @@ rlabel polysilicon 237 1121 237 1121 1 2
 rlabel polysilicon 241 1132 241 1132 1 1
 rlabel polysilicon 217 1132 217 1132 1 0
 rlabel metal2 228 1749 228 1749 1 A
-rlabel metal2 346 1745 346 1745 1 B
-rlabel metal1 1023 1118 1023 1118 1 C
 rlabel m3contact 97 1182 97 1182 1 in
-rlabel metal1 1021 892 1021 892 1 E
 rlabel metal1 570 1638 570 1638 1 LB_in
 rlabel metal1 995 1379 995 1379 1 LB_out
+rlabel metal1 192 1118 192 1118 1 B
+rlabel metal1 273 1118 273 1118 1 C
+rlabel metal2 229 1087 229 1087 1 D
+rlabel metal2 346 911 346 911 1 E
+rlabel metal1 311 892 311 892 1 F
+rlabel metal1 379 891 379 891 1 G
+rlabel metal2 346 860 346 860 1 H
 << end >>
