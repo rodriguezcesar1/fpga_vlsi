@@ -1,0 +1,552 @@
+| units: 30 tech: scmos format: MIT
+p f/_out f/a_n15_28# Vdd! 2 4 -348 1601
+p f/a_n15_28# f/_out Vdd! 3 3 -362 1595
+n f/_out f/a_n15_28# GND! 2 4 -332 1601
+n f/a_n15_28# f/_out GND! 8 3 -317 1595
+p p/in f/a_n31_8# f/_out 2 33 -380 1578
+n p/in f/a_23_11# f/_out 2 23 -326 1581
+p q0 Vdd! f/a_n31_8# 2 33 -380 1573
+n _q0 GND! f/a_23_11# 2 23 -326 1576
+p _q0 f/a_n31_n2# Vdd! 2 30 -380 1568
+n q0 f/a_23_n2# GND! 2 20 -326 1568
+p f/_out f/out f/a_n31_n2# 2 30 -380 1563
+n f/_out f/out f/a_23_n2# 2 20 -326 1563
+p f/a_n15_n21# Vdd! f/out 3 3 -362 1546
+p f/out Vdd! f/a_n15_n21# 2 4 -348 1541
+n f/out GND! f/a_n15_n21# 2 4 -332 1541
+n f/a_n15_n21# GND! f/out 8 3 -317 1541
+p p/a_n8_12# Vdd! p/_out 3 3 -476 1587
+p p/_out Vdd! p/a_n8_12# 2 4 -462 1582
+n p/_out GND! p/a_n8_12# 2 4 -446 1582
+n p/a_n8_12# GND! p/_out 8 3 -431 1582
+p p/in p/a_n18_n4# Vdd! 2 30 -488 1574
+n p/in p/a_24_n4# GND! 2 20 -446 1574
+p _q0 p/_out p/a_n18_n4# 2 30 -488 1569
+n q0 p/_out p/a_24_n4# 2 20 -446 1569
+p g/_out g/a_n15_28# Vdd! 2 4 -351 1736
+p g/a_n15_28# g/_out Vdd! 3 3 -365 1730
+n g/_out g/a_n15_28# GND! 2 4 -335 1736
+n g/a_n15_28# g/_out GND! 8 3 -320 1730
+p p/in g/a_n31_8# g/_out 2 33 -383 1713
+n p/in g/a_23_11# g/_out 2 23 -329 1716
+p q1 Vdd! g/a_n31_8# 2 33 -383 1708
+n _q1 GND! g/a_23_11# 2 23 -329 1711
+p _q1 g/a_n31_n2# Vdd! 2 30 -383 1703
+n q1 g/a_23_n2# GND! 2 20 -329 1703
+p g/_out g/out g/a_n31_n2# 2 30 -383 1698
+n g/_out g/out g/a_23_n2# 2 20 -329 1698
+p g/a_n15_n21# Vdd! g/out 3 3 -365 1681
+p g/out Vdd! g/a_n15_n21# 2 4 -351 1676
+n g/out GND! g/a_n15_n21# 2 4 -335 1676
+n g/a_n15_n21# GND! g/out 8 3 -320 1676
+p OutPad_0/a_72_248# p5 Vdd! 2 88 670 2156
+n OutPad_0/a_72_248# p5 GND! 2 59 788 2156
+p OutPad_0/a_72_248# Vdd! p5 2 88 670 2148
+n OutPad_0/a_72_248# GND! p5 2 59 788 2148
+p OutPad_0/a_72_248# p5 Vdd! 2 88 670 2140
+n OutPad_0/a_72_248# p5 GND! 2 59 788 2140
+p OutPad_0/a_72_248# Vdd! p5 2 88 670 2132
+n OutPad_0/a_72_248# GND! p5 2 59 788 2132
+p OutPad_0/a_72_248# p5 Vdd! 2 88 670 2115
+n OutPad_0/a_72_248# p5 GND! 2 59 788 2115
+p OutPad_0/a_72_248# Vdd! p5 2 88 670 2107
+n OutPad_0/a_72_248# GND! p5 2 59 788 2107
+p OutPad_0/a_72_248# p5 Vdd! 2 88 670 2099
+n OutPad_0/a_72_248# p5 GND! 2 59 788 2099
+p OutPad_0/a_72_248# OutPad_0/a_75_245# p5 2 88 670 2091
+n OutPad_0/a_72_248# GND! p5 2 59 788 2091
+p OutPad_0/a_72_205# OutPad_0/a_72_248# Vdd! 2 88 670 2072
+p OutPad_0/a_72_205# Vdd! OutPad_0/a_72_248# 2 88 670 2064
+p OutPad_0/a_72_205# OutPad_0/a_72_248# Vdd! 2 88 670 2056
+n OutPad_0/a_72_205# OutPad_0/a_72_248# GND! 2 59 788 2072
+n OutPad_0/a_72_205# GND! OutPad_0/a_72_248# 2 59 788 2064
+n OutPad_0/a_72_205# OutPad_0/a_72_248# GND! 2 59 788 2056
+p OutPad_0/a_72_205# Vdd! OutPad_0/a_72_248# 2 88 670 2048
+n OutPad_0/a_72_205# GND! OutPad_0/a_72_248# 2 59 788 2048
+p OutPad_0/_out OutPad_0/a_72_205# Vdd! 2 56 702 2033
+p OutPad_0/_out Vdd! OutPad_0/a_72_205# 2 56 702 2025
+p OutPad_0/_out OutPad_0/a_72_205# Vdd! 2 56 702 2017
+n OutPad_0/_out OutPad_0/a_72_205# GND! 2 40 788 2033
+n OutPad_0/_out GND! OutPad_0/a_72_205# 2 40 788 2025
+n OutPad_0/_out OutPad_0/a_72_205# GND! 2 40 788 2017
+p OutPad_0/_out Vdd! OutPad_0/a_72_205# 2 56 702 2009
+n OutPad_0/_out GND! OutPad_0/a_72_205# 2 40 788 2009
+p p/_out OutPad_0/_out Vdd! 2 56 702 2001
+n p/_out OutPad_0/_out GND! 2 40 788 2001
+p p/_out Vdd! OutPad_0/_out 2 56 702 1993
+n p/_out GND! OutPad_0/_out 2 40 788 1993
+p t6/a_72_248# p4 Vdd! 2 88 361 2156
+n t6/a_72_248# p4 GND! 2 59 479 2156
+p t6/a_72_248# Vdd! p4 2 88 361 2148
+n t6/a_72_248# GND! p4 2 59 479 2148
+p t6/a_72_248# p4 Vdd! 2 88 361 2140
+n t6/a_72_248# p4 GND! 2 59 479 2140
+p t6/a_72_248# Vdd! p4 2 88 361 2132
+n t6/a_72_248# GND! p4 2 59 479 2132
+p t6/a_72_248# p4 Vdd! 2 88 361 2115
+n t6/a_72_248# p4 GND! 2 59 479 2115
+p t6/a_72_248# Vdd! p4 2 88 361 2107
+n t6/a_72_248# GND! p4 2 59 479 2107
+p t6/a_72_248# p4 Vdd! 2 88 361 2099
+n t6/a_72_248# p4 GND! 2 59 479 2099
+p t6/a_72_248# t6/a_75_245# p4 2 88 361 2091
+n t6/a_72_248# GND! p4 2 59 479 2091
+p t6/a_72_205# t6/a_72_248# Vdd! 2 88 361 2072
+p t6/a_72_205# Vdd! t6/a_72_248# 2 88 361 2064
+p t6/a_72_205# t6/a_72_248# Vdd! 2 88 361 2056
+n t6/a_72_205# t6/a_72_248# GND! 2 59 479 2072
+n t6/a_72_205# GND! t6/a_72_248# 2 59 479 2064
+n t6/a_72_205# t6/a_72_248# GND! 2 59 479 2056
+p t6/a_72_205# Vdd! t6/a_72_248# 2 88 361 2048
+n t6/a_72_205# GND! t6/a_72_248# 2 59 479 2048
+p t6/_out t6/a_72_205# Vdd! 2 56 393 2033
+p t6/_out Vdd! t6/a_72_205# 2 56 393 2025
+p t6/_out t6/a_72_205# Vdd! 2 56 393 2017
+n t6/_out t6/a_72_205# GND! 2 40 479 2033
+n t6/_out GND! t6/a_72_205# 2 40 479 2025
+n t6/_out t6/a_72_205# GND! 2 40 479 2017
+p t6/_out Vdd! t6/a_72_205# 2 56 393 2009
+n t6/_out GND! t6/a_72_205# 2 40 479 2009
+p f/out t6/_out Vdd! 2 56 393 2001
+n f/out t6/_out GND! 2 40 479 2001
+p f/out Vdd! t6/_out 2 56 393 1993
+n f/out GND! t6/_out 2 40 479 1993
+p t5/a_72_248# p3 Vdd! 2 88 52 2156
+n t5/a_72_248# p3 GND! 2 59 170 2156
+p t5/a_72_248# Vdd! p3 2 88 52 2148
+n t5/a_72_248# GND! p3 2 59 170 2148
+p t5/a_72_248# p3 Vdd! 2 88 52 2140
+n t5/a_72_248# p3 GND! 2 59 170 2140
+p t5/a_72_248# Vdd! p3 2 88 52 2132
+n t5/a_72_248# GND! p3 2 59 170 2132
+p t5/a_72_248# p3 Vdd! 2 88 52 2115
+n t5/a_72_248# p3 GND! 2 59 170 2115
+p t5/a_72_248# Vdd! p3 2 88 52 2107
+n t5/a_72_248# GND! p3 2 59 170 2107
+p t5/a_72_248# p3 Vdd! 2 88 52 2099
+n t5/a_72_248# p3 GND! 2 59 170 2099
+p t5/a_72_248# t5/a_75_245# p3 2 88 52 2091
+n t5/a_72_248# GND! p3 2 59 170 2091
+p t5/a_72_205# t5/a_72_248# Vdd! 2 88 52 2072
+p t5/a_72_205# Vdd! t5/a_72_248# 2 88 52 2064
+p t5/a_72_205# t5/a_72_248# Vdd! 2 88 52 2056
+n t5/a_72_205# t5/a_72_248# GND! 2 59 170 2072
+n t5/a_72_205# GND! t5/a_72_248# 2 59 170 2064
+n t5/a_72_205# t5/a_72_248# GND! 2 59 170 2056
+p t5/a_72_205# Vdd! t5/a_72_248# 2 88 52 2048
+n t5/a_72_205# GND! t5/a_72_248# 2 59 170 2048
+p t5/_out t5/a_72_205# Vdd! 2 56 84 2033
+p t5/_out Vdd! t5/a_72_205# 2 56 84 2025
+p t5/_out t5/a_72_205# Vdd! 2 56 84 2017
+n t5/_out t5/a_72_205# GND! 2 40 170 2033
+n t5/_out GND! t5/a_72_205# 2 40 170 2025
+n t5/_out t5/a_72_205# GND! 2 40 170 2017
+p t5/_out Vdd! t5/a_72_205# 2 56 84 2009
+n t5/_out GND! t5/a_72_205# 2 40 170 2009
+p g/out t5/_out Vdd! 2 56 84 2001
+n g/out t5/_out GND! 2 40 170 2001
+p g/out Vdd! t5/_out 2 56 84 1993
+n g/out GND! t5/_out 2 40 170 1993
+p p2 t4/_RawIn Vdd! 2 56 -225 2031
+n p2 t4/_RawIn GND! 2 40 -139 2031
+p p2 Vdd! t4/_RawIn 2 56 -225 2023
+n p2 GND! t4/_RawIn 2 40 -139 2023
+p t4/_RawIn p/in Vdd! 2 56 -225 2015
+n t4/_RawIn p/in GND! 2 40 -139 2015
+p t4/_RawIn Vdd! p/in 2 56 -225 2007
+p t4/_RawIn p/in Vdd! 2 56 -225 1999
+p t4/_RawIn Vdd! p/in 2 56 -225 1991
+n t4/_RawIn GND! p/in 2 40 -139 2007
+n t4/_RawIn p/in GND! 2 40 -139 1999
+n t4/_RawIn GND! p/in 2 40 -139 1991
+p p1 InPad_0/_RawIn Vdd! 2 56 -534 2031
+n p1 InPad_0/_RawIn GND! 2 40 -448 2031
+p p1 Vdd! InPad_0/_RawIn 2 56 -534 2023
+n p1 GND! InPad_0/_RawIn 2 40 -448 2023
+p InPad_0/_RawIn q1 Vdd! 2 56 -534 2015
+n InPad_0/_RawIn q1 GND! 2 40 -448 2015
+p InPad_0/_RawIn Vdd! q1 2 56 -534 2007
+p InPad_0/_RawIn q1 Vdd! 2 56 -534 1999
+p InPad_0/_RawIn Vdd! q1 2 56 -534 1991
+n InPad_0/_RawIn GND! q1 2 40 -448 2007
+n InPad_0/_RawIn q1 GND! 2 40 -448 1999
+n InPad_0/_RawIn GND! q1 2 40 -448 1991
+p p0 InPad_1/_RawIn Vdd! 2 56 -843 2031
+n p0 InPad_1/_RawIn GND! 2 40 -757 2031
+p p0 Vdd! InPad_1/_RawIn 2 56 -843 2023
+n p0 GND! InPad_1/_RawIn 2 40 -757 2023
+p InPad_1/_RawIn q0 Vdd! 2 56 -843 2015
+n InPad_1/_RawIn q0 GND! 2 40 -757 2015
+p InPad_1/_RawIn Vdd! q0 2 56 -843 2007
+p InPad_1/_RawIn q0 Vdd! 2 56 -843 1999
+p InPad_1/_RawIn Vdd! q0 2 56 -843 1991
+n InPad_1/_RawIn GND! q0 2 40 -757 2007
+n InPad_1/_RawIn q0 GND! 2 40 -757 1999
+n InPad_1/_RawIn GND! q0 2 40 -757 1991
+p q1 _q1 Vdd! 2 50 -385 1650
+n q1 _q1 GND! 2 25 -323 1650
+p q1 Vdd! _q1 2 50 -385 1642
+n q1 GND! _q1 2 25 -323 1642
+p q0 _q0 Vdd! 2 50 -385 1634
+n q0 _q0 GND! 2 25 -323 1634
+p q0 Vdd! _q0 2 50 -385 1626
+n q0 GND! _q0 2 25 -323 1626
+C l0/Raw Vdd! 11.08
+C t6/a_72_248# Vdd! 4.62
+C q1 Vdd! 8.83
+C l2/b/w_16_754# l2/Raw 69.88
+C r0/Raw GND! 15.52
+C g/out GND! 2.88
+C OutPad_0/a_72_205# GND! 2.55
+C b8/Raw GND! 15.52
+C t4/b/w_16_754# p2 92.14
+C GND! l3/Raw 15.52
+C l5/Raw GND! 15.52
+C r8/Raw r8/b/w_16_754# 69.88
+C GND! t5/a_72_248# 2.94
+C r8/Raw Vdd! 11.08
+C t5/_out Vdd! 3.73
+C InPad_1/_RawIn Vdd! 3.96
+C t0/Raw t0/b/w_16_754# 69.88
+C InPad_0/_RawIn Vdd! 3.96
+C l4/Raw Vdd! 11.08
+C l7/b/w_16_754# l7/Raw 69.88
+C r1/Raw Vdd! 11.08
+C p4 GND! 4.71
+C l9/b/w_16_754# l9/Raw 69.88
+C p4 t6/b/w_16_754# 92.54
+C l8/b/w_16_754# l8/Raw 69.88
+C b6/b/w_16_754# b6/Raw 69.88
+C r2/Raw Vdd! 11.08
+C r6/Raw GND! 15.52
+C l1/Raw l1/b/w_16_754# 69.88
+C b0/Raw Vdd! 11.08
+C b1/Raw GND! 15.52
+C p5 Vdd! 6.94
+C t5/b/w_16_754# p3 92.14
+C p1 Vdd! 7.04
+C crt/m1_n143_n314# crt/m2_n143_n314# 2720.80
+C b5/Raw GND! 15.52
+C p2 Vdd! 7.04
+C t9/b/w_16_754# t9/Raw 69.88
+C l7/Raw Vdd! 11.08
+C f/out Vdd! 2.43
+C r5/Raw GND! 15.52
+C r4/Raw Vdd! 11.08
+C clb/m2_n143_n314# clb/m1_n143_n314# 2720.80
+C r9/Raw GND! 15.52
+C b2/Raw GND! 15.52
+C t6/a_72_205# Vdd! 4.46
+C l3/b/w_16_754# l3/Raw 69.88
+C GND! q0 6.27
+C r5/b/w_16_754# r5/Raw 69.88
+C p0 GND! 6.71
+C b3/Raw Vdd! 11.08
+C b6/Raw Vdd! 11.08
+C r7/Raw GND! 15.52
+C r9/b/w_16_754# r9/Raw 69.88
+C p/in GND! 6.15
+C clt/m2_n143_n314# Vdd! 95.30
+C l2/Raw GND! 15.52
+C l1/Raw Vdd! 11.08
+C l9/Raw GND! 15.52
+C l0/Raw GND! 15.52
+C t6/a_72_248# GND! 2.94
+C q1 GND! 6.11
+C p/_out Vdd! 2.39
+C l6/Raw Vdd! 11.08
+C p5 OutPad_0/a_72_248# 6.68
+C l6/b/w_16_754# l6/Raw 69.88
+C p3 Vdd! 6.94
+C t5/a_72_205# Vdd! 4.46
+C p4 t6/a_72_248# 6.68
+C r3/Raw Vdd! 11.08
+C t4/_RawIn Vdd! 3.96
+C b4/Raw Vdd! 11.08
+C b5/Raw b5/b/w_16_754# 69.88
+C t9/Raw Vdd! 11.08
+C r8/Raw GND! 15.52
+C OutPad_0/a_72_248# Vdd! 4.62
+C InPad_1/_RawIn GND! 2.58
+C InPad_0/_RawIn GND! 2.58
+C b9/Raw Vdd! 11.08
+C l4/Raw GND! 15.52
+C r6/b/w_16_754# r6/Raw 69.88
+C r1/Raw GND! 15.52
+C l8/Raw Vdd! 11.08
+C b7/Raw Vdd! 11.08
+C r2/Raw GND! 15.52
+C r3/b/w_16_754# r3/Raw 69.88
+C t0/Raw Vdd! 11.08
+C b0/Raw GND! 15.52
+C t6/_out Vdd! 3.73
+C p5 GND! 4.71
+C l0/b/w_16_754# l0/Raw 69.88
+C r0/Raw Vdd! 11.08
+C p1 GND! 6.71
+C g/out Vdd! 2.43
+C clt/a_n143_n314# clt/m1_n143_n314# 2488.06
+C p2 GND! 6.71
+C l7/Raw GND! 15.52
+C f/out GND! 2.88
+C r4/Raw GND! 15.52
+C clt/m1_n143_n314# clt/m2_n143_n314# 2720.80
+C b8/b/w_16_754# b8/Raw 69.88
+C OutPad_0/a_72_205# Vdd! 4.46
+C p0 InPad_1/b/w_16_754# 92.04
+C b8/Raw Vdd! 11.08
+C GND! t6/a_72_205# 2.55
+C r2/Raw r2/b/w_16_754# 69.88
+C r0/b/w_16_754# r0/Raw 69.88
+C Vdd! l3/Raw 11.08
+C l5/Raw Vdd! 11.08
+C GND! Vdd! 650.15
+C t5/a_72_248# Vdd! 4.62
+C b2/b/w_16_754# b2/Raw 69.88
+C crt/m2_n143_n314# Vdd! 95.30
+C InPad_0/b/w_16_754# p1 92.04
+C b3/Raw GND! 15.52
+C b6/Raw GND! 15.52
+C crt/m1_n143_n314# crt/a_n143_n314# 2488.06
+C p4 Vdd! 6.94
+C crb/m2_n143_n314# Vdd! 95.30
+C b3/b/w_16_754# b3/Raw 69.88
+C l4/b/w_16_754# l4/Raw 69.88
+C r6/Raw Vdd! 11.08
+C r1/b/w_16_754# r1/Raw 69.88
+C b1/b/w_16_754# b1/Raw 69.88
+C GND! l1/Raw 15.52
+C b1/Raw Vdd! 11.08
+C b9/b/w_16_754# b9/Raw 69.88
+C b5/Raw Vdd! 11.08
+C p/_out GND! 2.68
+C l6/Raw GND! 15.52
+C r7/Raw r7/b/w_16_754# 69.88
+C r5/Raw Vdd! 11.08
+C p3 GND! 4.71
+C OutPad_0/_out Vdd! 3.73
+C p3 t5/a_72_248# 6.68
+C r9/Raw Vdd! 11.08
+C crb/a_n143_n314# crb/m1_n143_n314# 2488.06
+C t1/b/w_16_754# GND! 92.65
+C t5/a_72_205# GND! 2.55
+C b2/Raw Vdd! 11.08
+C GND! r3/Raw 15.52
+C r4/b/w_16_754# r4/Raw 69.88
+C crb/m2_n143_n314# crb/m1_n143_n314# 2720.80
+C t8/b/w_16_754# Vdd! 109.88
+C t4/_RawIn GND! 2.58
+C GND! b4/Raw 15.52
+C OutPad_0/b/w_16_754# p5 92.04
+C clb/m2_n143_n314# Vdd! 95.30
+C t9/Raw GND! 15.52
+C GND! OutPad_0/a_72_248# 2.94
+C q0 Vdd! 8.59
+C b0/Raw b0/b/w_16_754# 69.88
+C p0 Vdd! 7.04
+C b9/Raw GND! 15.52
+C clb/a_n143_n314# clb/m1_n143_n314# 2488.06
+C l8/Raw GND! 15.52
+C r7/Raw Vdd! 11.08
+C l5/b/w_16_754# l5/Raw 69.88
+C b4/b/w_16_754# b4/Raw 69.88
+C b7/Raw GND! 15.52
+C p/in Vdd! 7.20
+C b7/b/w_16_754# b7/Raw 69.88
+C l2/Raw Vdd! 11.08
+C t0/Raw GND! 15.52
+C l9/Raw Vdd! 11.08
+R t0/Raw 27
+C t0/b/w_16_754# GND 535.39
+R t0/b/w_16_754# 725
+C t1/b/w_16_754# GND 535.39
+R t1/b/w_16_754# 725
+C q0 GND 2.58
+R q0 516
+R InPad_1/_RawIn 640
+R p0 128
+C InPad_1/b/w_16_754# GND 535.39
+R InPad_1/b/w_16_754# 725
+R q1 447
+R InPad_0/_RawIn 640
+R p1 128
+C InPad_0/b/w_16_754# GND 535.39
+R InPad_0/b/w_16_754# 725
+R p/in 481
+R t4/_RawIn 640
+R p2 128
+C t4/b/w_16_754# GND 535.39
+R t4/b/w_16_754# 725
+R g/out 438
+R t5/_out 640
+C t5/a_72_205# GND 9.11
+R t5/a_72_205# 901
+R t5/a_75_245# 70
+C t5/a_72_248# GND 25.59
+R t5/a_72_248# 1251
+C p3 GND 46.65
+R p3 320
+C t5/b/w_16_754# GND 535.39
+R t5/b/w_16_754# 725
+R f/out 443
+R t6/_out 640
+C t6/a_72_205# GND 9.11
+R t6/a_72_205# 901
+R t6/a_75_245# 70
+C t6/a_72_248# GND 25.59
+R t6/a_72_248# 1251
+C p4 GND 46.26
+R p4 320
+C t6/b/w_16_754# GND 535.39
+R t6/b/w_16_754# 725
+C p/_out GND 55.36
+R p/_out 447
+R OutPad_0/_out 640
+C OutPad_0/a_72_205# GND 9.11
+R OutPad_0/a_72_205# 901
+R OutPad_0/a_75_245# 70
+C OutPad_0/a_72_248# GND 25.59
+R OutPad_0/a_72_248# 1251
+C p5 GND 46.63
+R p5 320
+C OutPad_0/b/w_16_754# GND 535.39
+R OutPad_0/b/w_16_754# 725
+C t8/b/w_16_754# GND 535.39
+R t8/b/w_16_754# 725
+R t9/Raw 27
+C t9/b/w_16_754# GND 535.39
+R t9/b/w_16_754# 725
+C GND! GND 844.65
+R GND! 3147
+C Vdd! GND 595.60
+R Vdd! 3243
+C g/a_n15_n21# GND 3.24
+R g/a_n15_n21# 64
+R g/a_23_n2# 19
+R g/a_n31_n2# 24
+C _q1 GND 2.85
+R _q1 139
+R g/a_23_11# 21
+R g/a_n31_8# 26
+C g/a_n15_28# GND 3.24
+R g/a_n15_28# 64
+C g/_out GND 3.96
+R g/_out 202
+R p/a_24_n4# 19
+R p/a_n18_n4# 24
+C p/a_n8_12# GND 3.24
+R p/a_n8_12# 64
+C clt/m2_n143_n314# GND 7.48
+C clt/m1_n143_n314# GND 18.90
+C clt/a_n143_n314# GND 6044.66
+C f/a_n15_n21# GND 3.24
+R f/a_n15_n21# 64
+R f/a_23_n2# 19
+R f/a_n31_n2# 24
+C _q0 GND 4.90
+R _q0 206
+R f/a_23_11# 21
+R f/a_n31_8# 26
+C f/a_n15_28# GND 3.24
+R f/a_n15_28# 64
+C f/_out GND 3.96
+R f/_out 202
+C crt/m2_n143_n314# GND 7.48
+C crt/m1_n143_n314# GND 18.90
+C crt/a_n143_n314# GND 6044.66
+R l9/Raw 27
+C l9/b/w_16_754# GND 535.39
+R l9/b/w_16_754# 725
+R l8/Raw 27
+C l8/b/w_16_754# GND 535.39
+R l8/b/w_16_754# 725
+R l7/Raw 27
+C l7/b/w_16_754# GND 535.39
+R l7/b/w_16_754# 725
+R l6/Raw 27
+C l6/b/w_16_754# GND 535.39
+R l6/b/w_16_754# 725
+R l5/Raw 27
+C l5/b/w_16_754# GND 535.39
+R l5/b/w_16_754# 725
+R l4/Raw 27
+C l4/b/w_16_754# GND 535.39
+R l4/b/w_16_754# 725
+R l3/Raw 27
+C l3/b/w_16_754# GND 535.39
+R l3/b/w_16_754# 725
+R l2/Raw 27
+C l2/b/w_16_754# GND 535.39
+R l2/b/w_16_754# 725
+R l1/Raw 27
+C l1/b/w_16_754# GND 535.39
+R l1/b/w_16_754# 725
+R r9/Raw 27
+C r9/b/w_16_754# GND 535.39
+R r9/b/w_16_754# 725
+R r8/Raw 27
+C r8/b/w_16_754# GND 535.39
+R r8/b/w_16_754# 725
+R r7/Raw 27
+C r7/b/w_16_754# GND 535.39
+R r7/b/w_16_754# 725
+R r6/Raw 27
+C r6/b/w_16_754# GND 535.39
+R r6/b/w_16_754# 725
+R r5/Raw 27
+C r5/b/w_16_754# GND 535.39
+R r5/b/w_16_754# 725
+R r4/Raw 27
+C r4/b/w_16_754# GND 535.39
+R r4/b/w_16_754# 725
+R r3/Raw 27
+C r3/b/w_16_754# GND 535.39
+R r3/b/w_16_754# 725
+R r2/Raw 27
+C r2/b/w_16_754# GND 535.39
+R r2/b/w_16_754# 725
+R r1/Raw 27
+C r1/b/w_16_754# GND 535.39
+R r1/b/w_16_754# 725
+R r0/Raw 27
+C r0/b/w_16_754# GND 535.39
+R r0/b/w_16_754# 725
+R l0/Raw 27
+C l0/b/w_16_754# GND 535.39
+R l0/b/w_16_754# 725
+C clb/m2_n143_n314# GND 7.48
+C clb/m1_n143_n314# GND 18.90
+C clb/a_n143_n314# GND 6044.66
+R b0/Raw 27
+C b0/b/w_16_754# GND 535.39
+R b0/b/w_16_754# 725
+R b1/Raw 27
+C b1/b/w_16_754# GND 535.39
+R b1/b/w_16_754# 725
+R b2/Raw 27
+C b2/b/w_16_754# GND 535.39
+R b2/b/w_16_754# 725
+R b3/Raw 27
+C b3/b/w_16_754# GND 535.39
+R b3/b/w_16_754# 725
+R b4/Raw 27
+C b4/b/w_16_754# GND 535.39
+R b4/b/w_16_754# 725
+R b5/Raw 27
+C b5/b/w_16_754# GND 535.39
+R b5/b/w_16_754# 725
+R b6/Raw 27
+C b6/b/w_16_754# GND 535.39
+R b6/b/w_16_754# 725
+R b7/Raw 27
+C b7/b/w_16_754# GND 535.39
+R b7/b/w_16_754# 725
+R b8/Raw 27
+C b8/b/w_16_754# GND 535.39
+R b8/b/w_16_754# 725
+C crb/m2_n143_n314# GND 7.48
+C crb/m1_n143_n314# GND 18.90
+C crb/a_n143_n314# GND 6044.66
+R b9/Raw 27
+C b9/b/w_16_754# GND 535.39
+R b9/b/w_16_754# 725

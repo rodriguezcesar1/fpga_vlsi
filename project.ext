@@ -1,0 +1,168 @@
+timestamp 1510162215
+version 8.1
+tech scmos
+style HP0.5um(hpcmos14tb)from:T11E
+scale 1000 1 30
+resistclasses 2800 2400 725000 725000 1 2500 2500 70 70 50
+use BlankPad t0 1 0 -1540 0 1 1868
+use GNDPad t1 1 0 -1242 0 1 1852
+use InPad t2 1 0 -901 0 1 2183
+use InPad t3 1 0 -592 0 1 2183
+use VddPad t4 1 0 -315 0 1 1852
+use BlankPad t5 1 0 5 0 1 1868
+use BlankPad t6 1 0 314 0 1 1868
+use BlankPad t7 1 0 623 0 1 1868
+use BlankPad t8 1 0 932 0 1 1868
+use BlankPad t9 1 0 1241 0 1 1868
+use Corner crt 0 1 1869 -1 0 2325
+use Corner clt 1 0 -2325 0 1 1869
+use BlankPad l9 0 -1 -1868 1 0 1240
+use BlankPad l8 0 -1 -1868 1 0 931
+use BlankPad l7 0 -1 -1868 1 0 622
+use BlankPad l6 0 -1 -1868 1 0 313
+use BlankPad l5 0 -1 -1868 1 0 4
+use BlankPad l4 0 -1 -1868 1 0 -305
+use BlankPad l3 0 -1 -1868 1 0 -614
+use BlankPad l2 0 -1 -1868 1 0 -923
+use BlankPad l1 0 -1 -1868 1 0 -1232
+use BlankPad r9 0 1 1868 -1 0 1540
+use BlankPad r8 0 1 1868 -1 0 1231
+use BlankPad r7 0 1 1868 -1 0 922
+use BlankPad r6 0 1 1868 -1 0 613
+use BlankPad r5 0 1 1868 -1 0 304
+use BlankPad r4 0 1 1868 -1 0 -5
+use BlankPad r3 0 1 1868 -1 0 -314
+use BlankPad r2 0 1 1868 -1 0 -623
+use BlankPad r1 0 1 1868 -1 0 -932
+use BlankPad r0 0 1 1868 -1 0 -1241
+use BlankPad l0 0 -1 -1868 1 0 -1541
+use Corner clb 0 -1 -1869 1 0 -2325
+use BlankPad b0 -1 0 -1240 0 -1 -1868
+use BlankPad b1 -1 0 -931 0 -1 -1868
+use BlankPad b2 -1 0 -622 0 -1 -1868
+use BlankPad b3 -1 0 -313 0 -1 -1868
+use BlankPad b4 -1 0 -4 0 -1 -1868
+use BlankPad b5 -1 0 305 0 -1 -1868
+use BlankPad b6 -1 0 614 0 -1 -1868
+use BlankPad b7 -1 0 923 0 -1 -1868
+use BlankPad b8 -1 0 1232 0 -1 -1868
+use Corner crb -1 0 2325 0 -1 -1869
+use BlankPad b9 -1 0 1541 0 -1 -1868
+node "phi1" 0 22036.6 -503 2335 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5472 296 0 0 0 0
+node "phi0" 0 22036.6 -813 2330 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5472 296 0 0 0 0
+cap "b5/br/Vdd!" "b5/br/GND!" -1.42109e-14
+cap "crb/Vdd!" "crb/GND!" -14.505
+cap "clb/GND!" "clb/Vdd!" -14.505
+cap "r0/br/Vdd!" "r0/br/GND!" -14.505
+cap "r4/br/Vdd!" "r4/br/GND!" -1.42109e-14
+cap "l4/br/GND!" "l4/br/Vdd!" -4.26326e-14
+cap "r5/br/Vdd!" "r5/br/GND!" -2.84217e-14
+cap "t0/br/Vdd!" "t1/Vdd!" 1.13687e-13
+cap "t1/br/Vdd!" "t2/Vdd!" 1.13687e-13
+cap "t3/Vdd!" "t2/br/Vdd!" 1.13687e-13
+cap "t4/Vdd!0" "t3/br/Vdd!" 1.13687e-13
+cap "t5/br/GND!" "t5/br/Vdd!" -1.42109e-14
+cap "t9/br/GND!" "t9/br/Vdd!" -14.505
+subcap "phi0" -21975.5
+cap "t2/b/w_16_754#" "t2/b/m1_16_754#" 3185.41
+cap "phi0" "t2/b/w_16_754#" 13137
+subcap "phi1" -21927.7
+cap "t3/b/m1_16_754#" "t3/b/w_16_754#" 926.466
+subcap "phi1" -21805.9
+cap "t3/b/w_16_754#" "phi1" 13940.2
+cap "t2/b/m1_16_754#" "t2/b/w_16_754#" 328.422
+cap "t2/b/m1_16_754#" "t2/b/w_16_754#" 1335.08
+cap "t3/b/w_16_754#" "t3/b/m1_16_754#" 169.602
+cap "t3/b/w_16_754#" "t3/b/m1_16_754#" 2641.06
+merge "t9/br/Vdd!" "t8/br/Vdd!" -1895.37 80 -802 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 640 -1922
+merge "t8/br/Vdd!" "t7/br/Vdd!"
+merge "t7/br/Vdd!" "t6/br/Vdd!"
+merge "t6/br/Vdd!" "t5/br/Vdd!"
+merge "t5/br/Vdd!" "t4/Vdd!0"
+merge "t4/Vdd!0" "t4/br/Vdd!"
+merge "t4/br/Vdd!" "t3/Vdd!"
+merge "t3/Vdd!" "t3/br/Vdd!"
+merge "t3/br/Vdd!" "t2/Vdd!"
+merge "t2/Vdd!" "t2/br/Vdd!"
+merge "t2/br/Vdd!" "t1/Vdd!"
+merge "t1/Vdd!" "t1/br/Vdd!"
+merge "t1/br/Vdd!" "t0/br/Vdd!"
+merge "t0/br/Vdd!" "crb/Vdd!"
+merge "crb/Vdd!" "b9/br/Vdd!"
+merge "b9/br/Vdd!" "b8/br/Vdd!"
+merge "b8/br/Vdd!" "b7/br/Vdd!"
+merge "b7/br/Vdd!" "b6/br/Vdd!"
+merge "b6/br/Vdd!" "b5/br/Vdd!"
+merge "b5/br/Vdd!" "b4/br/Vdd!"
+merge "b4/br/Vdd!" "b3/br/Vdd!"
+merge "b3/br/Vdd!" "b2/br/Vdd!"
+merge "b2/br/Vdd!" "b1/br/Vdd!"
+merge "b1/br/Vdd!" "b0/br/Vdd!"
+merge "b0/br/Vdd!" "clb/Vdd!"
+merge "clb/Vdd!" "l0/br/Vdd!"
+merge "l0/br/Vdd!" "r0/br/Vdd!"
+merge "r0/br/Vdd!" "l1/br/Vdd!"
+merge "l1/br/Vdd!" "r1/br/Vdd!"
+merge "r1/br/Vdd!" "l2/br/Vdd!"
+merge "l2/br/Vdd!" "r2/br/Vdd!"
+merge "r2/br/Vdd!" "l3/br/Vdd!"
+merge "l3/br/Vdd!" "r3/br/Vdd!"
+merge "r3/br/Vdd!" "l4/br/Vdd!"
+merge "l4/br/Vdd!" "r4/br/Vdd!"
+merge "r4/br/Vdd!" "l5/br/Vdd!"
+merge "l5/br/Vdd!" "r5/br/Vdd!"
+merge "r5/br/Vdd!" "l6/br/Vdd!"
+merge "l6/br/Vdd!" "r6/br/Vdd!"
+merge "r6/br/Vdd!" "l7/br/Vdd!"
+merge "l7/br/Vdd!" "r7/br/Vdd!"
+merge "r7/br/Vdd!" "l8/br/Vdd!"
+merge "l8/br/Vdd!" "r8/br/Vdd!"
+merge "r8/br/Vdd!" "l9/br/Vdd!"
+merge "l9/br/Vdd!" "r9/br/Vdd!"
+merge "r9/br/Vdd!" "clt/Vdd!"
+merge "clt/Vdd!" "crt/Vdd!"
+merge "t9/br/GND!" "t8/br/GND!" -1855.02 0 0 -808 -621 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -614 -1101
+merge "t8/br/GND!" "t7/br/GND!"
+merge "t7/br/GND!" "t6/br/GND!"
+merge "t6/br/GND!" "t5/br/GND!"
+merge "t5/br/GND!" "t4/br/GND!"
+merge "t4/br/GND!" "t3/br/GND!"
+merge "t3/br/GND!" "t2/br/GND!"
+merge "t2/br/GND!" "t1/br/GND!"
+merge "t1/br/GND!" "t0/br/GND!"
+merge "t0/br/GND!" "crb/GND!"
+merge "crb/GND!" "b9/br/GND!"
+merge "b9/br/GND!" "b8/br/GND!"
+merge "b8/br/GND!" "b7/br/GND!"
+merge "b7/br/GND!" "b6/br/GND!"
+merge "b6/br/GND!" "b5/br/GND!"
+merge "b5/br/GND!" "b4/br/GND!"
+merge "b4/br/GND!" "b3/br/GND!"
+merge "b3/br/GND!" "b2/br/GND!"
+merge "b2/br/GND!" "b1/br/GND!"
+merge "b1/br/GND!" "b0/br/GND!"
+merge "b0/br/GND!" "clb/GND!"
+merge "clb/GND!" "l0/br/GND!"
+merge "l0/br/GND!" "r0/br/GND!"
+merge "r0/br/GND!" "l1/br/GND!"
+merge "l1/br/GND!" "r1/br/GND!"
+merge "r1/br/GND!" "l2/br/GND!"
+merge "l2/br/GND!" "r2/br/GND!"
+merge "r2/br/GND!" "l3/br/GND!"
+merge "l3/br/GND!" "r3/br/GND!"
+merge "r3/br/GND!" "l4/br/GND!"
+merge "l4/br/GND!" "r4/br/GND!"
+merge "r4/br/GND!" "l5/br/GND!"
+merge "l5/br/GND!" "r5/br/GND!"
+merge "r5/br/GND!" "l6/br/GND!"
+merge "l6/br/GND!" "r6/br/GND!"
+merge "r6/br/GND!" "l7/br/GND!"
+merge "l7/br/GND!" "r7/br/GND!"
+merge "r7/br/GND!" "l8/br/GND!"
+merge "l8/br/GND!" "r8/br/GND!"
+merge "r8/br/GND!" "l9/br/GND!"
+merge "l9/br/GND!" "r9/br/GND!"
+merge "r9/br/GND!" "clt/GND!"
+merge "clt/GND!" "crt/GND!"
+merge "t2/b/m1_16_754#" "phi0" -22291.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "t3/b/m1_16_754#" "phi1" -21982.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
