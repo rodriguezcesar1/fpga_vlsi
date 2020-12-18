@@ -1,0 +1,73 @@
+timestamp 1007670071
+version 8.1
+tech scmos
+style HP0.5um(hpcmos14tb)from:T11E
+scale 1000 1 30
+resistclasses 2800 2400 725000 725000 1 2500 2500 70 70 50
+node "a_n15_n21#" 64 3235.4 -15 -21 p 20 18 20 18 0 0 0 0 0 0 188 136 0 0 100 76 0 0 0 0
+node "out" 102 2232.24 -31 -7 pdif 103 76 133 96 0 0 0 0 0 0 56 56 0 0 281 186 0 0 0 0
+equiv "out" "out"
+node "a_23_n2#" 19 0 23 -2 ndif 60 46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n31_n2#" 24 0 -31 -2 pdif 0 0 90 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_clk" 110 2439.23 -41 -2 pc 0 0 0 0 0 0 0 0 0 0 180 180 0 0 338 230 0 0 0 0
+equiv "_clk" "_clk"
+node "clk" 111 1466.6 -33 6 p 0 0 0 0 0 0 0 0 0 0 178 182 0 0 0 0 0 0 0 0
+equiv "clk" "clk"
+node "a_23_11#" 21 0 23 11 ndif 69 52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n31_8#" 26 0 -31 8 pdif 0 0 99 72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "in" 110 1669.81 -33 11 p 0 0 0 0 0 0 0 0 0 0 188 186 0 0 34 28 0 0 0 0
+equiv "in" "in"
+node "a_n15_28#" 64 3235.4 -15 28 p 20 18 20 18 0 0 0 0 0 0 188 136 0 0 100 76 0 0 0 0
+node "_out" 202 3957.27 -33 -4 p 92 70 122 90 0 0 0 0 0 0 240 230 0 0 442 288 0 0 0 0
+equiv "_out" "_out"
+equiv "_out" "_out"
+equiv "_out" "_out"
+node "GND!" 87 1277.34 17 -31 ndc 233 148 120 76 0 0 0 0 0 0 0 0 0 0 336 192 304 160 0 0
+equiv "GND!" "GND!"
+equiv "GND!" "GND!"
+node "Vdd!" 101 1343.76 -31 3 pdif 136 84 293 188 0 0 0 0 0 0 0 0 0 0 356 202 304 160 0 0
+equiv "Vdd!" "Vdd!"
+equiv "Vdd!" "Vdd!"
+cap "_out" "GND!" 357.67
+cap "a_n15_28#" "Vdd!" 347.619
+cap "a_n15_28#" "GND!" 347.619
+cap "Vdd!" "out" 231.316
+cap "_out" "clk" 218.863
+cap "Vdd!" "_clk" 214.002
+cap "in" "Vdd!" 17.506
+cap "GND!" "out" 249.966
+cap "GND!" "_clk" 214.002
+cap "in" "GND!" 17.506
+cap "a_n15_28#" "_out" 914.174
+cap "Vdd!" "a_n31_n2#" 21.786
+cap "a_n15_n21#" "out" 914.174
+cap "_clk" "clk" 59.15
+cap "in" "clk" 157.733
+cap "_out" "_clk" 1200.7
+cap "_out" "in" 734.544
+cap "_clk" "out" 1135.02
+cap "in" "_clk" 85.4733
+cap "Vdd!" "a_n31_8#" 21.786
+cap "GND!" "a_23_n2#" 21.786
+cap "GND!" "a_23_11#" 21.786
+cap "Vdd!" "clk" 35.012
+cap "Vdd!" "a_n15_n21#" 347.619
+cap "_out" "Vdd!" 397.954
+cap "GND!" "clk" 35.012
+cap "GND!" "a_n15_n21#" 347.619
+fet nfet 32 -26 33 -25 24 22 "Gnd!" "a_n15_n21#" 16 0 "GND!" 3 0 "out" 3 0
+fet nfet 17 -26 18 -25 8 12 "Gnd!" "out" 4 0 "GND!" 4 0 "a_n15_n21#" 4 0
+fet pfet 1 -26 2 -25 8 12 "Vdd!" "out" 4 0 "Vdd!" 4 0 "a_n15_n21#" 4 0
+fet pfet -13 -21 -12 -20 9 12 "Vdd!" "a_n15_n21#" 6 0 "Vdd!" 3 0 "out" 3 0
+fet nfet 23 -4 24 -3 40 44 "Gnd!" "_out" 4 0 "out" 20 0 "a_23_n2#" 20 0
+fet pfet -31 -4 -30 -3 60 64 "Vdd!" "_out" 4 0 "out" 30 0 "a_n31_n2#" 30 0
+fet nfet 23 1 24 2 40 44 "Gnd!" "clk" 4 0 "a_23_n2#" 20 0 "GND!" 20 0
+fet pfet -31 1 -30 2 60 64 "Vdd!" "_clk" 4 0 "a_n31_n2#" 30 0 "Vdd!" 30 0
+fet nfet 23 9 24 10 46 50 "Gnd!" "_clk" 4 0 "GND!" 23 0 "a_23_11#" 23 0
+fet pfet -31 6 -30 7 66 70 "Vdd!" "clk" 4 0 "Vdd!" 33 0 "a_n31_8#" 33 0
+fet nfet 23 14 24 15 46 50 "Gnd!" "in" 4 0 "a_23_11#" 23 0 "_out" 23 0
+fet pfet -31 11 -30 12 66 70 "Vdd!" "in" 4 0 "a_n31_8#" 33 0 "_out" 33 0
+fet nfet 32 28 33 29 24 22 "Gnd!" "a_n15_28#" 16 0 "_out" 3 0 "GND!" 3 0
+fet nfet 17 34 18 35 8 12 "Gnd!" "_out" 4 0 "a_n15_28#" 4 0 "GND!" 4 0
+fet pfet -13 28 -12 29 9 12 "Vdd!" "a_n15_28#" 6 0 "_out" 3 0 "Vdd!" 3 0
+fet pfet 1 34 2 35 8 12 "Vdd!" "_out" 4 0 "a_n15_28#" 4 0 "Vdd!" 4 0

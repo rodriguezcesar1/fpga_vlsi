@@ -1,0 +1,187 @@
+magic
+tech scmos
+timestamp 1510162215
+<< metal1 >>
+rect -813 2330 -741 2406
+rect -503 2335 -431 2411
+use BlankPad  t0
+timestamp 1006127261
+transform 1 0 -1540 0 1 1868
+box -11 -51 298 632
+use GNDPad  t1
+timestamp 1509371954
+transform 1 0 -1242 0 1 1852
+box 0 -35 309 648
+use InPad  t2
+timestamp 1509371954
+transform 1 0 -901 0 1 2183
+box -32 -366 277 317
+use InPad  t3
+timestamp 1509371954
+transform 1 0 -592 0 1 2183
+box -32 -366 277 317
+use VddPad  t4
+timestamp 1509371954
+transform 1 0 -315 0 1 1852
+box 0 -35 309 648
+use BlankPad  t5
+timestamp 1006127261
+transform 1 0 5 0 1 1868
+box -11 -51 298 632
+use BlankPad  t6
+timestamp 1006127261
+transform 1 0 314 0 1 1868
+box -11 -51 298 632
+use BlankPad  t7
+timestamp 1006127261
+transform 1 0 623 0 1 1868
+box -11 -51 298 632
+use BlankPad  t8
+timestamp 1006127261
+transform 1 0 932 0 1 1868
+box -11 -51 298 632
+use BlankPad  t9
+timestamp 1006127261
+transform 1 0 1241 0 1 1868
+box -11 -51 298 632
+use Corner  crt
+timestamp 1012241868
+transform 0 1 1869 -1 0 2325
+box -143 -333 774 618
+use Corner  clt
+timestamp 1012241868
+transform 1 0 -2325 0 1 1869
+box -143 -333 774 618
+use BlankPad  l9
+timestamp 1006127261
+transform 0 -1 -1868 1 0 1240
+box -11 -51 298 632
+use BlankPad  l8
+timestamp 1006127261
+transform 0 -1 -1868 1 0 931
+box -11 -51 298 632
+use BlankPad  l7
+timestamp 1006127261
+transform 0 -1 -1868 1 0 622
+box -11 -51 298 632
+use BlankPad  l6
+timestamp 1006127261
+transform 0 -1 -1868 1 0 313
+box -11 -51 298 632
+use BlankPad  l5
+timestamp 1006127261
+transform 0 -1 -1868 1 0 4
+box -11 -51 298 632
+use BlankPad  l4
+timestamp 1006127261
+transform 0 -1 -1868 1 0 -305
+box -11 -51 298 632
+use BlankPad  l3
+timestamp 1006127261
+transform 0 -1 -1868 1 0 -614
+box -11 -51 298 632
+use BlankPad  l2
+timestamp 1006127261
+transform 0 -1 -1868 1 0 -923
+box -11 -51 298 632
+use BlankPad  l1
+timestamp 1006127261
+transform 0 -1 -1868 1 0 -1232
+box -11 -51 298 632
+use BlankPad  r9
+timestamp 1006127261
+transform 0 1 1868 -1 0 1540
+box -11 -51 298 632
+use BlankPad  r8
+timestamp 1006127261
+transform 0 1 1868 -1 0 1231
+box -11 -51 298 632
+use BlankPad  r7
+timestamp 1006127261
+transform 0 1 1868 -1 0 922
+box -11 -51 298 632
+use BlankPad  r6
+timestamp 1006127261
+transform 0 1 1868 -1 0 613
+box -11 -51 298 632
+use BlankPad  r5
+timestamp 1006127261
+transform 0 1 1868 -1 0 304
+box -11 -51 298 632
+use BlankPad  r4
+timestamp 1006127261
+transform 0 1 1868 -1 0 -5
+box -11 -51 298 632
+use BlankPad  r3
+timestamp 1006127261
+transform 0 1 1868 -1 0 -314
+box -11 -51 298 632
+use BlankPad  r2
+timestamp 1006127261
+transform 0 1 1868 -1 0 -623
+box -11 -51 298 632
+use BlankPad  r1
+timestamp 1006127261
+transform 0 1 1868 -1 0 -932
+box -11 -51 298 632
+use BlankPad  r0
+timestamp 1006127261
+transform 0 1 1868 -1 0 -1241
+box -11 -51 298 632
+use BlankPad  l0
+timestamp 1006127261
+transform 0 -1 -1868 1 0 -1541
+box -11 -51 298 632
+use Corner  clb
+timestamp 1012241868
+transform 0 -1 -1869 1 0 -2325
+box -143 -333 774 618
+use BlankPad  b0
+timestamp 1006127261
+transform -1 0 -1240 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b1
+timestamp 1006127261
+transform -1 0 -931 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b2
+timestamp 1006127261
+transform -1 0 -622 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b3
+timestamp 1006127261
+transform -1 0 -313 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b4
+timestamp 1006127261
+transform -1 0 -4 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b5
+timestamp 1006127261
+transform -1 0 305 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b6
+timestamp 1006127261
+transform -1 0 614 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b7
+timestamp 1006127261
+transform -1 0 923 0 -1 -1868
+box -11 -51 298 632
+use BlankPad  b8
+timestamp 1006127261
+transform -1 0 1232 0 -1 -1868
+box -11 -51 298 632
+use Corner  crb
+timestamp 1012241868
+transform -1 0 2325 0 -1 -1869
+box -143 -333 774 618
+use BlankPad  b9
+timestamp 1006127261
+transform -1 0 1541 0 -1 -1868
+box -11 -51 298 632
+<< labels >>
+rlabel space 0 0 0 0 2 Core
+rlabel metal1 -781 2372 -781 2372 1 phi0
+rlabel metal1 -460 2372 -460 2372 1 phi1
+<< end >>
