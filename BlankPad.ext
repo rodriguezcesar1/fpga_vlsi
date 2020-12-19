@@ -10,9 +10,9 @@ node "Raw" 0 139808 96 -51 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 942 0 0 0 0
 subcap "Raw" -142432
 subcap "Raw" -113015
 cap "br/GND!" "Raw" 12777
-cap "br/GND!" "Raw" 577.554
-cap "br/Vdd!" "Raw" 10610.4
-cap "br/GND!" "Raw" 2106.23
-cap "Raw" "br/Vdd!" 467.076
+cap "Raw" "br/GND!" 577.554
+cap "Raw" "br/Vdd!" 10610.4
+cap "Raw" "br/GND!" 2106.23
 cap "br/GND!" "Raw" 60.84
+cap "br/Vdd!" "Raw" 467.076
 merge "b/m1_16_754#" "Raw" -2363.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -356 -200 0 0 0 0
